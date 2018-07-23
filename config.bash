@@ -26,7 +26,7 @@
 #Sets the path for the results
 #---resultDir="<PATH/TO/RESULTDIR>"
 #Sets the path for the physical offsets of the bars
-physOffsetDir="$timecalInstallDir/phys/ornl2016"
+physOffsetDir="$timecalInstallDir/phys/riken2018"
 #---------- Fitting Configuration ---------
 #Sets the minimum statistics required for fitting the spectra
 minStats=100
@@ -43,7 +43,7 @@ smallOffsets="small.dat"
 
 #---------- Medium Bar Information ----------
 #The number of medium VANDLE bars that are in the analysis
-numMediumBars=42
+numMediumBars=48
 #The file containing the small offsets 
 mediumOffsets="medium.dat"
 
