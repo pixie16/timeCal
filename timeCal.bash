@@ -16,7 +16,7 @@
 # ------------------------------------------------------------------------------
 
 speedOfLight=29.9792458 #cm/ns
-tmpDir="./tmp"
+tmpDir="tmp"
 tempHistData="$tmpDir/tcal.dat"
 tempFitResults="$tmpDir/tcal.par"
 errorLog="errors.log"
@@ -34,6 +34,8 @@ then
     if [ ! -z $2 ]
     then
 	resultDir=$2/$hisbase
+    else
+	resultDir="./result"
     fi
 fi
 
