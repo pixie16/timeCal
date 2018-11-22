@@ -35,7 +35,7 @@ then
     then
 	resultDir=$2/$hisbase
     else
-	resultDir="./result"
+	resultDir="./TimeCal_Result"
     fi
 fi
 
