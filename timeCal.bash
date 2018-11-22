@@ -206,21 +206,21 @@ if [[ ! -z $numSmallBars &&  "$numSmallBars" != 0 ]]
 then
     SetParams "small"
     OutputInfo
-    CalculateAndOutput > $resultDir/smallConfig.xml
+    CalculateAndOutput > $resultDir/TimeCal_small.xml
 fi
 
 if [[ ! -z $numBigBars && "$numBigBars" != 0 ]]
 then
     SetParams "big"
     OutputInfo
-    CalculateAndOutput > $resultDir/bigConfig.xml
+    CalculateAndOutput > $resultDir/TimeCal_big.xml
 fi
 
 if [[ ! -z $numMediumBars && "$numMediumBars" != 0 ]]
 then
     SetParams "medium"
     OutputInfo
-    CalculateAndOutput > $resultDir/mediumConfig.xml
+    CalculateAndOutput > $resultDir/TimeCal_medium.xml
 fi
 
 if [ -f $errorLog ]
